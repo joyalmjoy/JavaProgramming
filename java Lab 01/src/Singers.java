@@ -1,4 +1,4 @@
-import java.time.LocalDate;
+import java.time.LocalDate;     //(from w3 school)
 
 public class Singers {
 
@@ -11,29 +11,18 @@ public class Singers {
 
     //constructor with 0 arguments
     public Singers(){
-        Singers_id = 0;
-        Singers_name = "";
-        Singers_address = "";
-        Date_Of_Birth = null;
-        Number_Of_Albums_Published = 0;
+
     }
 
     //constructor with 1 argument
     public Singers(int Singers_id){
         this.Singers_id = Singers_id;
-        Singers_name = "";
-        Singers_address = "";
-        Date_Of_Birth = null;
-        Number_Of_Albums_Published = 0;
     }
 
     //constructor with 2 argument
     public Singers(int Singers_id, String Singers_name){
         this.Singers_id = Singers_id;
         this.Singers_name = Singers_name;
-        Singers_address = "";
-        Date_Of_Birth = null;
-        Number_Of_Albums_Published = 0;
     }
 
     //constructor with 3 argument
@@ -41,8 +30,6 @@ public class Singers {
         this.Singers_id = Singers_id;
         this.Singers_name = Singers_name;
         this.Singers_address = Singers_address;
-        Date_Of_Birth = null;
-        Number_Of_Albums_Published = 0;
     }
 
     //constructor with 4 argument
@@ -51,7 +38,6 @@ public class Singers {
         this.Singers_name = Singers_name;
         this.Singers_address = Singers_address;
         this.Date_Of_Birth = Date_Of_Birth;
-        Number_Of_Albums_Published = 0;
     }
 
     //constructor with 5 argument
